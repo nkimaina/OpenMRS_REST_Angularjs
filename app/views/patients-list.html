@@ -1,0 +1,11 @@
+<div class="row">
+  <button ng-click="getConcepts()" >Get Concepts</button>
+</div>
+<div class="row" ng-repeat="concept in concepts">
+	<div class="col-md-4">
+		{{concept.uuid}}
+	</div>
+	<div class="col-md-8">
+		{{concept.display}}
+	</div>
+</div>
